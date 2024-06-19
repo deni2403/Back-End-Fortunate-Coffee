@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon -r dotenv/config bin/www",
+    "build": "yarn install && yarn db:setup && yarn start",
     "develop": "nodemon -r dotenv/config bin/www",
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",

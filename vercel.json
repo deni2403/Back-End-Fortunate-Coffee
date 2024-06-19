@@ -12,5 +12,5 @@
       "dest": "bin/www.js"
     }
   ],
-  "buildCommand": "yarn install && yarn start"
+  "buildCommand": "yarn build"
 }
