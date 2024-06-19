@@ -5,10 +5,7 @@
       "src": "bin/www.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": [
-          "app/**",
-          "config/**"
-        ]
+        "includeFiles": ["app/**", "config/**", "bin/www.js"]
       }
     }
   ],
