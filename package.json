@@ -4,8 +4,7 @@
   "main": "bin/www.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon -r dotenv/config bin/www",
-    "build": "babel src -d list",
+    "start": "nodemon bin/www",
     "develop": "nodemon -r dotenv/config bin/www",
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
